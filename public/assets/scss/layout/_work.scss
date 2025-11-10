@@ -1,0 +1,169 @@
+@use '../utils' as *;
+
+/*=============================
+    Work 01
+===============================*/
+.work-card-wrap {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.work-card {
+    position: relative;
+    display: flex;
+    transition: 0.4s;
+    border-bottom: 1px solid rgba($color: #ffffff, $alpha: 0.2);
+    padding: 50px 0;
+    position: relative;
+    &:first-child {
+        border-top: 1px solid rgba($color: #ffffff, $alpha: 0.2);
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        left: 2px;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: var(--tg-theme-primary);
+        transform-origin: right top;
+        transform: scale(0, 1);
+        transition: transform 0.4s cubic-bezier(0.74, 0.72, 0.27, 0.24);
+    }
+    .work-card-title {
+        font-size: 60px !important;
+        font-weight: 400;
+        color: var(--tg-color-white-default);
+        margin-bottom: 0;
+        margin-top: 0;
+        text-transform: uppercase;
+        @media #{$md} {
+            font-size: 40px !important;
+        }
+        @media #{$xs} {
+            font-size: 32px !important;
+        }
+        @media #{$vxs} {
+            font-size: 24px !important;
+        }
+    }
+    .work-card-text {
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: rgba($color: #ffffff, $alpha: 0.5);
+        margin-bottom: 4px;
+        align-self: flex-end;
+        margin-left: 30px;
+        transition: 0.4s;
+        @media #{$xs} {
+            font-size: 16px;
+        }
+    }
+    .work-card-tag {
+        margin-left: auto;
+        align-self: center;
+        gap: 10px;
+        color: var(--tg-theme-primary);
+        text-transform: uppercase;
+    }
+    .hover-wrap {
+        position: absolute;
+        inset: 0 -315px;
+        z-index: 1;
+        transition: 0.4s;
+        opacity: 0;
+        background-size: cover;
+        padding: 50px 0;
+        display: flex;
+        align-items: center;
+        &:after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: var(--tg-theme-primary);
+            opacity: 0.8;
+            z-index: -1;
+        }
+        .marquee-wrap {
+            margin: 0;
+        }
+        .work-card-title-item.m-item {
+            margin-right: 80px !important;
+            a {
+                letter-spacing: normal;
+                color: var(--tg-heading-color);
+                line-height: 1;
+                &:hover {
+                    color: transparent;
+                    -webkit-text-stroke: 2px var(--tg-heading-color);
+                }
+            }
+            span {
+                color: rgba($color: #000000, $alpha: 0.2);
+                margin-left: 80px;
+                font-size: 60px;
+            }
+        }
+    }
+    &:hover {
+        .work-card-text {
+            color: rgba($color: #ffffff, $alpha: 1);
+        }
+        &:after {
+            transform-origin: left top;
+            transform: scale(1, 1);
+        }
+        .hover-wrap {
+            opacity: 1;
+        }
+    }
+    @media #{$xl} {
+        .work-card-title {
+            font-size: 50px !important;
+        }
+        .hover-wrap .work-card-title-item.m-item span {
+            font-size: 50px;
+        }
+    }
+    @media #{$lg} {
+        .work-card-title {
+            font-size: 40px !important;
+        }
+        .hover-wrap .work-card-title-item.m-item span {
+            font-size: 40px;
+        }
+    }
+    @media #{$md} {
+        .work-card-title {
+            font-size: 30px !important;
+        }
+        .hover-wrap .work-card-title-item.m-item {
+            margin-right: 40px !important;
+            span {
+                margin-left: 40px;
+                font-size: 30px;
+            }
+        }
+        .work-card-text {
+            font-size: 14px;
+            margin-left: 20px;
+        }
+        .work-card-tag {
+            font-size: 14px;
+        }
+    }
+    @media #{$xs} {
+        display: block;
+        padding: 30px 0;
+        .hover-wrap {
+            padding: 30px 0;
+        }
+        .work-card-text {
+            margin-left: 0;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            display: block;
+        }
+    }
+}

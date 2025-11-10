@@ -1,0 +1,257 @@
+@use '../utils' as *;
+
+/*=============================
+    Award 01
+===============================*/
+.award-list-wrap {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2px 0 0 2px;
+    .award-list-title {
+        font-size: 50px;
+        font-weight: 400;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        padding: 0 50px 0 0;
+        @media #{$lg} {
+            font-size: 40px;
+            padding: 0 40px 0 0;
+        }
+    }
+    .award-card-details {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.4s;
+        opacity: 0;
+        padding: 0 20px;
+        span {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .award-card-title {
+            color: var(--tg-color-white-default);
+            font-weight: 400;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+        }
+    }
+    li {
+        border: 2px solid #1E2122;
+        margin-left: -2px;
+        margin-top: -2px;
+        a {
+            height: 220px;
+            line-height: 220px;
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            position: relative;
+            img {
+                transition: 0.4s;
+            }
+            &:hover {
+                img {
+                    opacity: 0.1;
+                }
+                .award-card-details {
+                    opacity: 1;
+                }
+            }
+        }
+        &:first-child {
+            border-left: 0;
+            border-top: 0;
+        }
+        &:last-child {
+            border-right: 0;
+            border-bottom: 0;
+        }
+        &:nth-child(odd) {
+            border-top: 0;
+        }
+        &:nth-child(even) {
+            border-bottom: 0;
+        }
+    }
+    @media #{$lg} {
+        li {
+            a {
+                height: 200px;
+                line-height: 200px;
+            }
+        }
+    }
+    @media #{$md} {
+        grid-template-columns: repeat(3, 1fr);
+        li {
+            &:nth-child(even) {
+                border-bottom: 1px solid #1E2122;
+            }
+            &:nth-child(odd) {
+                border-top: 1px solid #1E2122;
+            }
+            &:first-child {
+                border-top: 0;
+            }
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+    }
+    @media #{$xs} {
+        grid-template-columns: repeat(1, 1fr);
+        .award-list-title {
+            text-align: center;
+            padding-right: 0;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+        li {
+            &:first-child {
+                border: 0;
+            }
+            &:last-child {
+                border: 1px solid #1E2122;
+            }
+        }
+    }
+    @media #{$sm} {
+        grid-template-columns: repeat(2, 1fr);
+        .award-list-title {
+            text-align: start;
+            padding-right: 40px;
+            margin-bottom: 0px;
+            font-size: 40px;
+        }
+    }
+}
+
+/*=============================
+    Award 02
+===============================*/
+.award-list-wrap2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    .single-award-list {
+        display: flex;
+        border-bottom: 1px solid rgba($color: #ffffff, $alpha: 0.1);
+        padding-bottom: 40px;
+        padding-top: 40px;
+        transition: 0.4s;
+        &:first-child {
+            border-top: 1px solid rgba($color: #ffffff, $alpha: 0.1);
+        }
+        .subtitle {
+            font-size: 18px;
+            font-weight: 400;
+            font-family: var(--tg-paragraph-font-family);
+            color: var(--tg-theme-primary);
+            transition: 0.4s;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            margin-top: -0.4em;
+        }
+        .award-details {
+            transition: 0.4s;
+            position: relative;
+            .title {
+                font-size: 30px;
+                font-weight: 400;
+                text-transform: uppercase;
+                font-family: var(--tg-heading-font-family);
+                margin-bottom: -0.2em;
+                a {
+                    color: var(--tg-color-white-default);
+                    &:hover {
+                        color: var(--tg-theme-primary);
+                    }
+                }
+            }
+        }
+        .link-btn {
+            margin-left: auto;
+            text-transform: uppercase;
+            transition: 0.4s;
+            align-self: center;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--tg-color-white-2);
+            gap: 10px;
+            margin-bottom: -7px;
+            i.fa-arrow-right {
+                transform: rotate(-45deg);
+                font-size: 16px;
+            }
+            &:hover {
+                i.fa-arrow-right {
+                    transform: none;
+                }
+            }
+        }
+        &:hover {
+            border-bottom-color: var(--tg-theme-primary);
+            .award-details {
+                transform: translate3d(1.5rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+            }
+            .link-btn {
+                transform: translate3d(-1.5rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+                color: var(--tg-theme-primary);
+            } 
+        }
+    }
+    @media #{$md} {
+        .single-award-list .award-details p {
+            font-size: 16px;
+        }
+    }
+    @media #{$xs} {
+        padding-bottom: 120px;
+        .single-award-list {
+            display: block;
+            &:hover {
+                .link-btn {
+                    transform: none;
+                }
+            }
+        }
+        .single-award-list .award-details {
+            margin-left: 0px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            .title {
+                font-size: 24px;
+                line-height: normal;
+            }
+        }
+        .single-award-list .award-tag {
+            margin-bottom: -0.5em;
+            display: block;
+            transform: none;
+        }
+        .single-award-list {
+            transition: 1.0s;
+            &:hover {
+                .award-details {
+                    transform: none;
+                }
+                .award-tag {
+                    transform: none;
+                }
+            }        
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@use '../utils' as *;
+
+/*=============================
+	1. Pagination
+===============================*/
+.pagination__wrap {
+    & ul {
+        gap: 10px;
+    }
+    & .page-numbers {
+        @include flexbox();
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background-color: var(--tg-color-white-default);
+        border: 1px solid var(--tg-border-1);
+        color: var(--tg-heading-color);
+        @include border-radius(10px);
+        font-weight: 700;
+		font-size: 16px;
+		&:hover,
+        &.current {
+            background-image: none;
+            border-color: var(--tg-theme-primary);
+            background-color: var(--tg-theme-primary);
+            color: var(--tg-color-white-default);
+        }
+    }
+}

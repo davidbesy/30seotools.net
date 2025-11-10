@@ -1,0 +1,150 @@
+@use '../utils' as *;
+
+/*=============================
+    Service 01
+===============================*/
+.subscribe-area-1 {
+    position: relative;
+    z-index: 1;
+    &:after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: var(--tg-color-dark);
+        opacity: 0.7;
+        z-index: -1;
+    }
+}
+.subscribe-wrap1 {
+    display: flex;
+    background: var(--tg-color-black-2);
+    .subscribe-wrap-thumb {
+        flex: none;
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .subscribe-wrap-details {
+        padding: 80px 50px;
+        .text {
+            font-size: 18px;
+            color: rgba($color: #ffffff, $alpha: 0.6);
+            margin-bottom: 30px;
+        }
+    }
+    .subscribe__form {
+        display: flex;
+        border: 1px solid var(--tg-color-white-default);
+        .form-control {
+            width: 100%;
+            color: var(--tg-color-white-default);
+            height: 60px;
+            border-radius: 0;
+            padding: 0 20px;
+            &::placeholder {
+                color: rgba($color: #ffffff, $alpha: 0.5);
+            }
+        }
+        .btn {
+            flex: none;
+            border: 0;
+            background: transparent;
+            box-shadow: none;
+            color: var(--tg-color-white-default);
+            font-family: var(--tg-heading-font-family);
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: normal;
+            padding: 0 26px 0 0;
+            gap: 15px;
+            &:after {
+                display: none;
+            }
+            i.fa-arrow-right {
+                color: var(--tg-theme-primary);
+                transform: rotate(-45deg);
+                transition: 0.4s;
+            }
+            &:focus,
+            &:active,
+            &:hover {
+                background: transparent;
+                background-color: transparent !important;
+                color: var(--tg-theme-primary);
+                i.fa-arrow-right {
+                    transform: rotate(0);
+                }
+            }
+        }
+    }
+    @media #{$md} {
+        display: block;
+        text-align: center;
+        .subscribe-wrap-thumb {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    @media #{$xs} {
+        .subscribe-wrap-details {
+            padding: 60px 40px;
+        }
+    }
+    @media #{$vxs} {
+        .subscribe-wrap-details {
+            padding: 40px 30px;
+        }
+        .subscribe__form {
+            display: block;
+            .btn {
+                background: var(--tg-theme-primary);
+                padding: 20px;
+                color: var(--tg-color-dark);
+                width: 100%;
+                justify-content: center;
+                margin: 0 -1px -1px;
+                i.fa-arrow-right {
+                    color: var(--tg-color-dark);
+                }
+                &:hover {
+                    background: var(--tg-color-white-default) !important;
+                    color: var(--tg-color-dark);
+
+                }
+            }
+        }
+    }
+}
+.subscribe-cta-wrap {
+    background: var(--tg-color-white-default);
+    padding: 98px 80px;
+    .subscribe-cta-title {
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 1.333;
+        margin-bottom: 0;
+    }
+    .subscribe-cta-text {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    @media #{$xl} {
+        .subscribe-cta-title {
+            font-size: 28px;
+        }
+    }
+    @media #{$lg} {
+        text-align: center;
+        padding: 60px;
+    }
+    @media #{$vxs} {
+        padding: 40px 30px;
+        .subscribe-cta-title {
+            font-size: 24px;
+        }
+    }
+}

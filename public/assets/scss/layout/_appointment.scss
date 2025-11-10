@@ -1,0 +1,104 @@
+@use '../utils' as *;
+
+/*=============================
+    Appointment Modal
+===============================*/
+.appointment-modal {
+    --bs-modal-width: 1320px;
+}
+/*=============================
+    Appointment area
+===============================*/
+.appointment__form {
+    border-radius: 10px;
+    background: var(--tg-color-white-default);
+    padding: 30px;
+    text-align: start;
+    .box-title {
+        margin-top: -0.15em;
+        font-size: 20px;
+        font-weight: 700;
+        border-bottom: 1px solid var(--tg-border-1);
+        padding-bottom: 14px;
+        margin-bottom: 30px;
+    }
+    input {
+        height: 50px;
+    }
+    .btn {
+        padding: 15px 23px 13px 23px;
+        border-radius: 5px;
+    }
+}
+
+/*=============================
+    Appointment area 1
+===============================*/
+.appointment-wrap1 {
+    border-radius: 15px;
+    background: var(--tg-color-smoke-3);
+    padding: 80px;
+    position: relative;
+    overflow: hidden;
+    .appointment-thumb1 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: calc(50% - 70px);
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .appointment__form {
+        padding: 0;
+        background: transparent;
+        .btn {
+            padding: 21px 30px 19px 30px;
+        }
+    }
+    @media #{$xs} {
+        padding: 40px 30px;
+    }
+    @media #{$sm} {
+        padding: 40px;
+    }
+}
+
+/*=============================
+    Appointment area 2
+===============================*/
+.appointment-wrap2 {
+    border-radius: 15px;
+    background: var(--tg-color-smoke-3);
+    padding: 80px;
+    position: relative;
+    overflow: hidden;
+    .appointment-thumb2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: calc(50% - 70px);
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .appointment__form {
+        padding: 0;
+        background: transparent;
+        .btn {
+            padding: 21px 30px 19px 30px;
+        }
+    }
+    @media #{$xs} {
+        padding: 40px 30px;
+    }
+    @media #{$sm} {
+        padding: 40px;
+    }
+}

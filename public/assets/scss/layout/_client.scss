@@ -1,0 +1,39 @@
+@use '../utils' as *;
+
+/*=============================
+    Client
+===============================*/
+.client-slider1 {
+    overflow: hidden;
+}
+.client-card {
+    background: var(--tg-color-white-default);
+    transition: 0.4s;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px rgba(29, 43, 42, 0.1);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        transition: 0.4s;
+        filter: grayscale(1);
+    }
+    &:hover {
+       img {
+        filter: none;
+        scale: 1.05;
+       }
+    }
+}
+
+/*=============================
+    Client
+===============================*/
+.client-area-2 {
+    border-top: 1px solid var(--tg-border-1);
+    border-bottom: 1px solid var(--tg-border-1);
+}
+.client-slider2 {
+    overflow: hidden;
+}
