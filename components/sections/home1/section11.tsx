@@ -60,7 +60,7 @@ export default function Section11() {
 										</svg>
 									</div>
 									<h3 className="box-title">24/7 Support</h3>
-									<p className="box-text">Round-the-clock customer support to help you with any questions or issues. We're here whenever you need us.</p>
+									<p className="box-text">Round-the-clock customer support to help you with any questions or issues. We&apos;re here whenever you need us.</p>
 								</div>
 							</div>
 							<div className="col-lg-4 col-md-6">

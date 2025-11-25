@@ -41,7 +41,7 @@ export default function Section10() {
 								</div>
 								<div className="card-details">
 									<h4 className="box-title">Small Business Owners</h4>
-									<p className="box-text">Optimize your website's SEO performance with professional tools at a fraction of the individual subscription cost.</p>
+									<p className="box-text">Optimize your website&apos;s SEO performance with professional tools at a fraction of the individual subscription cost.</p>
 								</div>
 							</div>
 						</div>

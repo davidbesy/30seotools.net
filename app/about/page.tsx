@@ -76,7 +76,7 @@ About Area
 									<div className="col-xl-6">
 										<div className="section__title">
 											<span className="sub-title text-anim">About Group Buy SEO Tools</span>
-											<h2 className="title text-anim2">We're Trusted Premium SEO Tools
+											<h2 className="title text-anim2">We&apos;re Trusted Premium SEO Tools
 												Group Buy Platform
 											</h2>
 										</div>

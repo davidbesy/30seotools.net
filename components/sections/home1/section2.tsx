@@ -70,7 +70,7 @@ export default function Section2() {
 										</svg>
 									</div>
 									<h3 className="box-title"><Link href="/single-tool-list">Site Audit & Technical SEO</Link></h3>
-									<p className="box-text">Perform comprehensive site audits, identify technical issues, and optimize your website's SEO performance with professional tools...</p>
+									<p className="box-text">Perform comprehensive site audits, identify technical issues, and optimize your website&apos;s SEO performance with professional tools...</p>
 								</div>
 							</div>
 						</div>

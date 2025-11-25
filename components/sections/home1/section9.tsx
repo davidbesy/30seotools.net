@@ -38,7 +38,7 @@ export default function Section9() {
 								</div>
 								<div className="blog__post-content">
 									<h3 className="title"><Link href="/blog-details">Complete Guide to SEMrush Backlink Analysis</Link></h3>
-									<p className="text">Master the art of backlink analysis using SEMrush tools to build quality links and improve your website's authority.</p>
+									<p className="text">Master the art of backlink analysis using SEMrush tools to build quality links and improve your website&apos;s authority.</p>
 									<div className="blog__post-bottom">
 										<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="link-btn" target="_blank" rel="noopener noreferrer">
 											READ MORE
