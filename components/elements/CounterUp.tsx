@@ -8,6 +8,9 @@ export default function CounterUp({ children }: any) {
 	const counterRef = useRef<HTMLSpanElement>(null)
 
 	useEffect(() => {
+		const currentRef = counterRef.current
+		if (!currentRef) return
+
 		const observer = new IntersectionObserver(
 			([entry]) => {
 				if (entry.isIntersecting) {
@@ -17,13 +20,11 @@ export default function CounterUp({ children }: any) {
 			{ threshold: 0.1 }
 		)
 
-		if (counterRef.current) {
-			observer.observe(counterRef.current)
-		}
+		observer.observe(currentRef)
 
 		return () => {
-			if (counterRef.current) {
-				observer.unobserve(counterRef.current)
+			if (currentRef) {
+				observer.unobserve(currentRef)
 			}
 		}
 	}, [])

@@ -15,9 +15,7 @@ const nextConfig = {
     },
     
     // Experimental features for better performance
-    experimental: {
-        optimizeCss: true,
-    },
+    // Removed optimizeCss as it requires critters package
     
     // Headers for security and performance
     async headers() {
