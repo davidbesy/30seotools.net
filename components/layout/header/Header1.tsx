@@ -14,18 +14,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }: any)
 										<svg width={16} height={14} viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M11.5625 5.03125L14.8438 10.7812C14.9375 10.9375 15 11.0938 15 11.2812V13C15 13.5625 14.5312 14 14 14H2C1.4375 14 1 13.5625 1 13V11.2812C1 11.0938 1.03125 10.9375 1.125 10.7812L4.40625 5.03125C4.75 4.40625 5.4375 4 6.15625 4H9.8125C10.5312 4 11.1875 4.40625 11.5625 5.03125ZM13.5 12.5V11.4062L10.25 5.75C10.1562 5.625 10 5.5 9.8125 5.5H6.15625C5.96875 5.5 5.8125 5.625 5.71875 5.75L2.5 11.4062V12.5H13.5ZM8 7C9.09375 7 10 7.90625 10 9C10 10.125 9.09375 11 8 11C6.875 11 6 10.125 6 9C6 7.90625 6.875 7 8 7ZM15.8125 2.84375C15.9062 2.96875 16 3.09375 16 3.25V5C16 5.28125 15.75 5.5 15.5 5.5H13.2812C13.0938 5.5 12.9375 5.40625 12.8438 5.25L12 3C10.75 2.46875 9.375 2.25 8 2.25C6.59375 2.25 5.21875 2.46875 4 3L3.125 5.25C3.03125 5.40625 2.875 5.5 2.6875 5.5H0.5C0.21875 5.5 0 5.28125 0 5V3.25C0 3.09375 0.0625 2.96875 0.15625 2.84375C2.34375 1.03125 5.125 0 8 0C10.8438 0 13.625 1.03125 15.8125 2.84375Z" fill="currentColor" />
 										</svg>
-										We Help Take Your Parcel Every Where Around The World
-									</li>
-								</ul>
-							</div>
-							<div className="col-xl-6 col-md-4 d-xl-block d-none">
-								<ul className="tg-header__top-right list-wrap">
-									<li className="tg-header__top-social">
-										<ul className="list-wrap">
-											<li><Link href="/https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f me-2" />Facebook</Link></li>
-											<li><Link href="/https://twitter.com" target="_blank"><i className="fab fa-twitter me-2" />Twitter</Link></li>
-											<li><Link href="/https://www.fa-linkedin.com/" target="_blank"><i className="fab fa-linkedin-in me-2" />Linkedin</Link></li>
-										</ul>
+										Get Premium SEO Tools at Group Buy Prices - Access All Tools You Need
 									</li>
 								</ul>
 							</div>
@@ -39,7 +28,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }: any)
 								<div className="tgmenu__wrap">
 									<nav className="tgmenu__nav">
 										<div className="logo">
-											<Link href="/"><img src="/assets/img/logo/logo.svg" alt="Logo" /></Link>
+											<Link href="/"><span style={{fontSize: '20px', fontWeight: '700', color: 'var(--tg-theme-primary)'}}>SEO GROUP BUY TOOLS</span></Link>
 										</div>
 										<div className="info-card-wrap">
 											<div className="info-card">
@@ -47,8 +36,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }: any)
 													<i className="fas fa-phone-alt" />
 												</div>
 												<div className="info-card_content">
-													<p className="info-card_text">Phone Number</p>
-													<Link href="/tel:+12013802737" className="info-card_link">(+202) 2156-2145</Link>
+													<p className="info-card_text">Phone</p>
+													<Link href="/tel:+15205636362" className="info-card_link">+1 (520) 563‑6362</Link>
 												</div>
 											</div>
 											<div className="info-card">
@@ -56,8 +45,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }: any)
 													<i className="fas fa-envelope" />
 												</div>
 												<div className="info-card_content">
-													<p className="info-card_text">Email Us Here</p>
-													<Link href="/mailto:info@valom.com" className="info-card_link">info@valom.com</Link>
+													<p className="info-card_text">Email</p>
+													<Link href="/mailto:admin@groupbuyseotool.us" className="info-card_link">admin@groupbuyseotool.us</Link>
 												</div>
 											</div>
 											<div className="info-card">
@@ -65,8 +54,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }: any)
 													<i className="fas fa-map-marker-alt" />
 												</div>
 												<div className="info-card_content">
-													<p className="info-card_text">Office Address</p>
-													<p className="info-card_link">251 Hilton, Berlin</p>
+													<p className="info-card_text">Support</p>
+													<p className="info-card_link">seogroupbuy.support</p>
 												</div>
 											</div>
 										</div>
@@ -83,49 +72,19 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }: any)
 								<div className="tgmenu__wrap">
 									<nav className="tgmenu__nav">
 										<div className="logo d-lg-none d-block">
-											<Link href="/"><img src="/assets/img/logo/logo.svg" alt="Logo" /></Link>
+											<Link href="/"><span style={{fontSize: '18px', fontWeight: '700', color: 'var(--tg-theme-primary)'}}>SEO GROUP BUY TOOLS</span></Link>
 										</div>
 										<div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
 											<ul className="navigation">
-												<li className="menu-item-has-children active"><Link href="#">Home</Link>
-													<ul className="sub-menu">
-														<li className="active"><Link href="/">Home One</Link></li>
-														<li><Link href="/home-2">Home Two</Link></li>
-														<li><Link href="/home-3">Home Three</Link></li>
-														<li><Link href="/home-4">Home Four</Link></li>
-														<li><Link href="/home-5">Home Five</Link></li>
-													</ul>
-												</li>
-												<li><Link href="/about">Abour Us</Link></li>
-												<li className="menu-item-has-children"><Link href="#">Services</Link>
-													<ul className="sub-menu">
-														<li><Link href="/service">Services</Link></li>
-														<li><Link href="/service-details">Service Details</Link></li>
-													</ul>
-												</li>
-												<li className="menu-item-has-children"><Link href="#">Pages</Link>
-													<ul className="sub-menu">
-														<li><Link href="/project">Project Page</Link></li>
-														<li><Link href="/project-details">Project Details</Link></li>
-														<li><Link href="/team">Team Page</Link></li>
-														<li><Link href="/team-details">Team Details</Link></li>
-														<li><Link href="/pricing">Pricing</Link></li>
-														<li><Link href="/appointment">Appointment</Link></li>
-														<li><Link href="/error">404 Page</Link></li>
-													</ul>
-												</li>
-												<li className="menu-item-has-children"><Link href="#">Blog</Link>
-													<ul className="sub-menu">
-														<li><Link href="/blog">Blog List</Link></li>
-														<li><Link href="/blog-2">Blog Grid</Link></li>
-														<li><Link href="/blog-details">Blog Details</Link></li>
-													</ul>
-												</li>
+												<li className="active"><Link href="/">Home</Link></li>
+												<li><Link href="/about">About Us</Link></li>
+												<li><Link href="/tool-list">Tools</Link></li>
+												<li><Link href="/single-tool-list">Single Tool List</Link></li>
 												<li><Link href="/contact">Contacts</Link></li>
 											</ul>
 										</div>
 										<div className="tgmenu__action d-none d-lg-block">
-											<Link href="/appointment" className="btn btn-two menu-tigger">
+											<Link href="https://wa.me/15205636362" className="btn btn-two menu-tigger" target="_blank" rel="noopener noreferrer">
 												<span className="btn-text" data-text="Book Appointment" />
 											</Link>
 										</div>
@@ -147,7 +106,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }: any)
 					<nav className="tgmobile__menu-box">
 						<div className="close-btn"><i className="fas fa-times" /></div>
 						<div className="nav-logo">
-							<Link href="/"><img src="/assets/img/logo/logo.svg" alt="Logo" /></Link>
+							<Link href="/"><span style={{fontSize: '18px', fontWeight: '700', color: 'var(--tg-theme-primary)'}}>SEO GROUP BUY TOOLS</span></Link>
 						</div>
 						<div className="tgmobile__menu-outer">
 							{/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}
@@ -155,8 +114,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }: any)
 						<div className="tgmobile__menu-bottom">
 							<div className="contact-info">
 								<ul className="list-wrap">
-									<li>Mail: <Link href="/mailto:info@valom.com">info@valom.com</Link></li>
-									<li>Phone: <Link href="/tel:0123456789">+123 888 9999</Link></li>
+									<li>Email: <Link href="/mailto:admin@groupbuyseotool.us">admin@groupbuyseotool.us</Link></li>
+									<li>Phone: <Link href="/tel:+15205636362">+1 (520) 563‑6362</Link></li>
+									<li>Support: seogroupbuy.support</li>
 								</ul>
 							</div>
 							<div className="social-links">

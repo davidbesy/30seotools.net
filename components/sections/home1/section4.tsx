@@ -10,8 +10,8 @@ export default function Section4() {
 					<div className="row justify-content-center">
 						<div className="col-12">
 							<div className="section__title text-center mb-50">
-								<span className="sub-title text-anim">Service We Provide</span>
-								<h2 className="title text-white text-anim2">Our Top Business Service</h2>
+								<span className="sub-title text-anim">SEO Tools We Offer</span>
+								<h2 className="title text-white text-anim2">Premium SEO Tools Collection</h2>
 							</div>
 						</div>
 					</div>
@@ -32,15 +32,13 @@ export default function Section4() {
 											<path d="M55.5894 30.9153C56.2271 28.864 56.0752 26.6679 55.1617 24.7316C54.949 24.2808 54.4108 24.0877 53.9595 24.2999C53.5081 24.5123 53.3147 25.0497 53.5274 25.5003C54.248 27.0278 54.3676 28.7607 53.864 30.3802C53.3577 32.0087 52.2638 33.3753 50.7839 34.2285C49.2179 35.1314 47.3934 35.371 45.6468 34.9038C43.9002 34.4364 42.4401 33.3178 41.5361 31.7541C39.6696 28.5259 40.7813 24.3834 44.0141 22.5196C46.3778 21.1571 49.3112 21.3392 51.4877 22.9835C51.8856 23.2842 52.4521 23.2059 52.7531 22.8085C53.054 22.4113 52.9756 21.8455 52.5777 21.545C49.8206 19.4618 46.1045 19.2312 43.1107 20.9572C41.1267 22.101 39.7075 23.9478 39.1146 26.1574C38.5217 28.3669 38.826 30.6749 39.9714 32.6559C41.1168 34.6371 42.9664 36.0541 45.1791 36.6463C45.9181 36.844 46.6679 36.9418 47.4129 36.9418C48.8989 36.9418 50.3658 36.5526 51.6871 35.7907C53.5621 34.71 54.9479 32.9786 55.5894 30.9153Z" fill="currentColor" />
 										</svg>
 									</div>
-									<h3 className="box-title"><Link href="/service-details">Strategic Planning and
-										Execution</Link></h3>
-									<p className="box-text">Global business landscape continues to evolve at an unprecedented
-										pace, the role of the consultancy company...</p>
+									<h3 className="box-title"><Link href="/single-tool-list">Ahrefs Group Buy</Link></h3>
+									<p className="box-text">Access Ahrefs premium features including keyword research, backlink analysis, site audit, and competitor research at affordable group buy prices...</p>
 								</div>
 								<div className="box-img image-anim">
 									<img src="/assets/img/service/service-img-1-1.jpg" alt="img" />
 									<div className="tg-button-wrap">
-										<Link href="/service-details" className="btn btn-three">
+										<Link href="https://seotoolsgroupbuy.us/" className="btn btn-three" target="_blank" rel="noopener noreferrer">
 											<span className="btn-text" data-text="Read More Details" />
 											<i className="fas fa-arrow-right" />
 										</Link>
@@ -62,15 +60,13 @@ export default function Section4() {
 											<path d="M58.0655 45.0514C57.6057 45.2428 57.308 45.7212 57.3462 46.2192C57.3837 46.7075 57.7293 47.1309 58.202 47.2616C59.2008 47.5378 60.051 46.4188 59.5198 45.5311C59.2246 45.038 58.595 44.8342 58.0655 45.0514Z" fill="currentColor" />
 										</svg>
 									</div>
-									<h3 className="box-title"><Link href="/service-details">Financial Management and
-										Advisory</Link></h3>
-									<p className="box-text">Global business landscape continues to evolve at an unprecedented
-										pace, the role of the consultancy company...</p>
+									<h3 className="box-title"><Link href="/single-tool-list">SEMrush Group Buy</Link></h3>
+									<p className="box-text">Get SEMrush access with all features including position tracking, keyword gap analysis, backlink audit, and social media tools...</p>
 								</div>
 								<div className="box-img image-anim">
 									<img src="/assets/img/service/service-img-1-2.jpg" alt="img" />
 									<div className="tg-button-wrap">
-										<Link href="/service-details" className="btn btn-three">
+										<Link href="https://seotoolsgroupbuy.us/" className="btn btn-three" target="_blank" rel="noopener noreferrer">
 											<span className="btn-text" data-text="Read More Details" />
 											<i className="fas fa-arrow-right" />
 										</Link>
@@ -96,15 +92,13 @@ export default function Section4() {
 											<path d="M14.967 46.2756C14.6327 46.2756 14.306 46.4115 14.0694 46.6481C13.8317 46.8844 13.6957 47.2125 13.6957 47.5469C13.6957 47.8813 13.8317 48.2093 14.0694 48.4457C14.3046 48.6821 14.6327 48.8183 14.967 48.8183C15.3028 48.8183 15.6308 48.6823 15.8671 48.4457C16.1036 48.2093 16.2398 47.8813 16.2398 47.5469C16.2398 47.2125 16.1037 46.8844 15.8671 46.6481C15.6294 46.4115 15.3028 46.2756 14.967 46.2756Z" fill="currentColor" />
 										</svg>
 									</div>
-									<h3 className="box-title"><Link href="/service-details">Market Research and
-										Analysis</Link></h3>
-									<p className="box-text">Global business landscape continues to evolve at an unprecedented
-										pace, the role of the consultancy company...</p>
+									<h3 className="box-title"><Link href="/single-tool-list">Moz Pro Group Buy</Link></h3>
+									<p className="box-text">Access Moz Pro tools for link building, keyword research, site audits, rank tracking, and local SEO optimization...</p>
 								</div>
 								<div className="box-img image-anim">
 									<img src="/assets/img/service/service-img-1-3.jpg" alt="img" />
 									<div className="tg-button-wrap">
-										<Link href="/service-details" className="btn btn-three">
+										<Link href="https://seotoolsgroupbuy.us/" className="btn btn-three" target="_blank" rel="noopener noreferrer">
 											<span className="btn-text" data-text="Read More Details" />
 											<i className="fas fa-arrow-right" />
 										</Link>

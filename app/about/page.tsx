@@ -61,41 +61,41 @@ About Area
 									</div>
 									<div className="col-xl-6">
 										<div className="section__title">
-											<span className="sub-title text-anim">About Amazing Company</span>
-											<h2 className="title text-anim2">We’re Trusted  Professional
-												Consultancy Company
+											<span className="sub-title text-anim">About Group Buy SEO Tools</span>
+											<h2 className="title text-anim2">We're Trusted Premium SEO Tools
+												Group Buy Platform
 											</h2>
 										</div>
-										<p className="mt-30 mb-40">The business consultancy company stands as a stalwart beacon of guidance and innovation, offering a multifaceted array of services tailored to propel enterprises toward their zenith. At its core, this entity operates as a bastion of strategic insight, employing a cadre of seasoned professionals.</p>
+										<p className="mt-30 mb-40">Group Buy SEO Tools is a leading platform that provides access to premium SEO tools at affordable group buy prices. We make expensive SEO software accessible to everyone by sharing costs among multiple users. Our platform offers the latest SEO tools including Ahrefs, SEMrush, Moz Pro, and many more at a fraction of the original cost.</p>
 										<div className="checklist-wrap">
 											<ul className="list-wrap">
 												<li>
 													<span className="icon">
 														<i className="fas fa-check-circle" />
 													</span>
-													Remain flexible and adaptive to swiftly respond to changing market dynamics and client needs.
+													Access to 100+ premium SEO tools including Ahrefs, SEMrush, Moz Pro, and more at affordable prices.
 												</li>
 												<li>
 													<span className="icon">
 														<i className="fas fa-check-circle" />
 													</span>
-													Empower clients through knowledge transfer, skill-building, and fostering a culture of self-sufficiency.
+													Regular updates and 24/7 customer support to ensure you get the best experience.
 												</li>
 												<li>
 													<span className="icon">
 														<i className="fas fa-check-circle" />
 													</span>
-													Facilitate a culture of ongoing learning and refinement to ensure sustained success and growth.
+													Save up to 90% on premium SEO tools compared to individual subscriptions.
 												</li>
 											</ul>
 										</div>
-										<div className="cta-link">Call to ask any question <Link href="/tel:52537561523">+525-3756-1523</Link></div>
+										<div className="cta-link">Call to ask any question <Link href="tel:+15205636362">+1 (520) 563‑6362</Link></div>
 										<div className="tg-button-wrap mt-30">
-											<Link href="/appointment" className="btn">
+											<Link href="https://wa.me/15205636362" className="btn" target="_blank" rel="noopener noreferrer">
 												<span className="btn-text" data-text="Make An Appointment" />
 											</Link>
-											<Link href="/service" className="btn btn-six">
-												<span className="btn-text" data-text="View Our Services" />
+											<Link href="/single-tool-list" className="btn btn-six">
+												<span className="btn-text" data-text="View Our Tools" />
 											</Link>
 										</div>
 									</div>
@@ -112,23 +112,23 @@ Counter Area
 							<div className="row gy-30 justify-content-center">
 								<div className="col-lg-4 col-md-6">
 									<div className="counter-card">
-										<h3 className="counter-card_title"><CounterUp>35</CounterUp></h3>
-										<p className="counter-card_subtitle">Years Of Experience</p>
-										<p className="counter-card_text">Central to the consultancy's modus operandi is a commitment...</p>
+										<h3 className="counter-card_title"><CounterUp>100</CounterUp>+</h3>
+										<p className="counter-card_subtitle">Premium SEO Tools Available</p>
+										<p className="counter-card_text">Access to the most comprehensive collection of SEO tools including Ahrefs, SEMrush, Moz Pro, and many more...</p>
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-6">
 									<div className="counter-card">
-										<h3 className="counter-card_title"><CounterUp>500</CounterUp>+</h3>
-										<p className="counter-card_subtitle">Official Project Completed</p>
-										<p className="counter-card_text">Central to the consultancy's modus operandi is a commitment...</p>
+										<h3 className="counter-card_title"><CounterUp>5000</CounterUp>+</h3>
+										<p className="counter-card_subtitle">Active Users</p>
+										<p className="counter-card_text">Join thousands of digital marketers, SEO professionals, and agencies who trust our platform...</p>
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-6">
 									<div className="counter-card">
-										<h3 className="counter-card_title"><CounterUp>396</CounterUp>+</h3>
-										<p className="counter-card_subtitle">In-House Team Members</p>
-										<p className="counter-card_text">Central to the consultancy's modus operandi is a commitment...</p>
+										<h3 className="counter-card_title"><CounterUp>90</CounterUp>%</h3>
+										<p className="counter-card_subtitle">Cost Savings</p>
+										<p className="counter-card_text">Save up to 90% on premium SEO tools compared to individual subscriptions...</p>
 									</div>
 								</div>
 							</div>
@@ -155,7 +155,7 @@ Team Area
 								<div className="col-lg-4 col-md-6">
 									<div className="team-card">
 										<div className="box-img image-anim">
-											<Link href="/team-details" className="thumb">
+											<Link href="/single-tool-list" className="thumb">
 												<img src="/assets/img/team/team-1-1.jpg" alt="img" />
 											</Link>
 											<div className="team-social">
@@ -169,7 +169,7 @@ Team Area
 											</div>
 										</div>
 										<div className="team-card-details">
-											<h4 className="box-title"><Link href="/team-details">Andrew Smith</Link></h4>
+											<h4 className="box-title"><Link href="/single-tool-list">Andrew Smith</Link></h4>
 											<span className="box-text">Advisor</span>
 										</div>
 									</div>
@@ -177,7 +177,7 @@ Team Area
 								<div className="col-lg-4 col-md-6">
 									<div className="team-card">
 										<div className="box-img image-anim">
-											<Link href="/team-details" className="thumb">
+											<Link href="/single-tool-list" className="thumb">
 												<img src="/assets/img/team/team-1-2.jpg" alt="img" />
 											</Link>
 											<div className="team-social">
@@ -191,7 +191,7 @@ Team Area
 											</div>
 										</div>
 										<div className="team-card-details">
-											<h4 className="box-title"><Link href="/team-details">Ethan Matthew</Link></h4>
+											<h4 className="box-title"><Link href="/single-tool-list">Ethan Matthew</Link></h4>
 											<span className="box-text">Advisor</span>
 										</div>
 									</div>
@@ -199,7 +199,7 @@ Team Area
 								<div className="col-lg-4 col-md-6">
 									<div className="team-card">
 										<div className="box-img image-anim">
-											<Link href="/team-details" className="thumb">
+											<Link href="/single-tool-list" className="thumb">
 												<img src="/assets/img/team/team-1-3.jpg" alt="img" />
 											</Link>
 											<div className="team-social">
@@ -213,7 +213,7 @@ Team Area
 											</div>
 										</div>
 										<div className="team-card-details">
-											<h4 className="box-title"><Link href="/team-details">Samuel Lucas</Link></h4>
+											<h4 className="box-title"><Link href="/single-tool-list">Samuel Lucas</Link></h4>
 											<span className="box-text">Advisor</span>
 										</div>
 									</div>

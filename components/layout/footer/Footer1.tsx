@@ -11,12 +11,12 @@ export default function Footer1() {
 							<div className="row gy-40 justify-content-between align-items-center">
 								<div className="col-xl-5 col-lg-6">
 									<h3 className="footer__top-title">
-										Join Valom and Get a Special Discount
+										Get Premium SEO Tools at Group Buy Prices - Save Up to 90%
 									</h3>
 								</div>
 								<div className="col-auto">
-									<Link href="/contact" className="btn btn-three">
-										<span className="btn-text" data-text="WRITE YOUR EXPERIENCE" />
+									<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn btn-three" target="_blank" rel="noopener noreferrer">
+										<span className="btn-text" data-text="View All Tools" />
 									</Link>
 								</div>
 							</div>
@@ -26,21 +26,12 @@ export default function Footer1() {
 								<div className="col-xl-3 col-lg-4 col-md-6">
 									<div className="footer__widget footer__about">
 										<div className="footer__logo">
-											<Link href="/"><img src="/assets/img/logo/logo-white.svg" alt="logo" /></Link>
+											<Link href="/"><span style={{fontSize: '20px', fontWeight: '700', color: '#ffffff'}}>SEO GROUP BUY TOOLS</span></Link>
 										</div>
 										<p className="footer__content mb-35">
 											Felis consquat magnis fames sagittis ultrices plasodales porttitor quisque ultrice
 											tempor turpis.
 										</p>
-										<div className="social-links">
-											<ul className="list-wrap">
-												<li><Link href="/https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f" /></Link></li>
-												<li><Link href="/https://twitter.com" target="_blank"><i className="fab fa-twitter" /></Link></li>
-												<li><Link href="/https://www.linkedin.com/" target="_blank"><i className="fab fa-linkedin-in" /></Link></li>
-												<li><Link href="/https://www.instagram.com/" target="_blank"><i className="fab fa-instagram" /></Link></li>
-												<li><Link href="/https://www.skype.com/" target="_blank"><i className="fab fa-skype" /></Link></li>
-											</ul>
-										</div>
 									</div>
 								</div>
 								<div className="col-xl-auto col-md-6">
@@ -53,22 +44,6 @@ export default function Footer1() {
 														<path d="M9 1L15 7M15 7L9 13M15 7H0" stroke="currentColor" strokeWidth="1.5" />
 													</svg>
 													About Us
-												</Link>
-											</li>
-											<li>
-												<Link href="/project">
-													<svg width={17} height={14} viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M9 1L15 7M15 7L9 13M15 7H0" stroke="currentColor" strokeWidth="1.5" />
-													</svg>
-													Portfolio
-												</Link>
-											</li>
-											<li>
-												<Link href="/appointment">
-													<svg width={17} height={14} viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M9 1L15 7M15 7L9 13M15 7H0" stroke="currentColor" strokeWidth="1.5" />
-													</svg>
-													Appointment
 												</Link>
 											</li>
 											<li>
@@ -98,8 +73,8 @@ export default function Footer1() {
 												<i className="fas fa-phone-alt" />
 											</div>
 											<div className="footer__info-content">
-												<h4 className="title">Call Us 24/7</h4>
-												<Link href="/tel:25621452156">(+256) 2145.2156</Link>
+												<h4 className="title">Phone</h4>
+												<Link href="/tel:+15205636362">+1 (520) 563‑6362</Link>
 											</div>
 										</div>
 										<div className="footer__info-item">
@@ -107,8 +82,8 @@ export default function Footer1() {
 												<i className="fas fa-envelope" />
 											</div>
 											<div className="footer__info-content">
-												<h4 className="title">Work with us</h4>
-												<Link href="/mailto:info@valom.com">info@valom.com</Link>
+												<h4 className="title">Email</h4>
+												<Link href="/mailto:admin@groupbuyseotool.us">admin@groupbuyseotool.us</Link>
 											</div>
 										</div>
 										<div className="footer__info-item">
@@ -116,53 +91,10 @@ export default function Footer1() {
 												<i className="fas fa-map-marker-alt" />
 											</div>
 											<div className="footer__info-content">
-												<h4 className="title">Our Location</h4>
-												<p>XYZ Hilton Street, 125</p>
+												<h4 className="title">Support</h4>
+												<p>seogroupbuy.support</p>
 											</div>
 										</div>
-									</div>
-								</div>
-								<div className="col-xl-auto col-md-6">
-									<div className="footer__widget footer__insta-feed-list">
-										<h4 className="footer__widget-title">Instagram Posts</h4>
-										<ul className="list-wrap">
-											<li>
-												<div className="insta-thumb">
-													<img src="/assets/img/widget/ins_post01.jpg" alt="Image" />
-													<Link href="/instagram.com" className="icon-btn"><i className="fab fa-instagram" /></Link>
-												</div>
-											</li>
-											<li>
-												<div className="insta-thumb">
-													<img src="/assets/img/widget/ins_post02.jpg" alt="Image" />
-													<Link href="/instagram.com" className="icon-btn"><i className="fab fa-instagram" /></Link>
-												</div>
-											</li>
-											<li>
-												<div className="insta-thumb">
-													<img src="/assets/img/widget/ins_post03.jpg" alt="Image" />
-													<Link href="/instagram.com" className="icon-btn"><i className="fab fa-instagram" /></Link>
-												</div>
-											</li>
-											<li>
-												<div className="insta-thumb">
-													<img src="/assets/img/widget/ins_post04.jpg" alt="Image" />
-													<Link href="/instagram.com" className="icon-btn"><i className="fab fa-instagram" /></Link>
-												</div>
-											</li>
-											<li>
-												<div className="insta-thumb">
-													<img src="/assets/img/widget/ins_post05.jpg" alt="Image" />
-													<Link href="/instagram.com" className="icon-btn"><i className="fab fa-instagram" /></Link>
-												</div>
-											</li>
-											<li>
-												<div className="insta-thumb">
-													<img src="/assets/img/widget/ins_post06.jpg" alt="Image" />
-													<Link href="/instagram.com" className="icon-btn"><i className="fab fa-instagram" /></Link>
-												</div>
-											</li>
-										</ul>
 									</div>
 								</div>
 							</div>

@@ -60,7 +60,7 @@ export default function Blog2() {
 											<h4 className="title"><Link href="/blog-details">5 Key Indicators of Financial Health Every Business</Link></h4>
 											<p className="text">Navigate challenges, seize opportunities, and embrace growth with strategic insight tailored to your unique needs.</p>
 											<div className="blog__post-bottom">
-												<Link href="/blog-details" className="link-btn">
+												<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="link-btn" target="_blank" rel="noopener noreferrer">
 													Read Details
 													<i className="fas fa-arrow-right ms-1" />
 												</Link>
@@ -93,7 +93,7 @@ export default function Blog2() {
 												Practices for Modern</Link></h4>
 											<p className="text">Navigate challenges, seize opportunities, and embrace growth with strategic insight tailored to your unique needs.</p>
 											<div className="blog__post-bottom">
-												<Link href="/blog-details" className="link-btn">
+												<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="link-btn" target="_blank" rel="noopener noreferrer">
 													Read Details
 													<i className="fas fa-arrow-right ms-1" />
 												</Link>
@@ -126,7 +126,7 @@ export default function Blog2() {
 												Consultancy Guidance</Link></h4>
 											<p className="text">Navigate challenges, seize opportunities, and embrace growth with strategic insight tailored to your unique needs.</p>
 											<div className="blog__post-bottom">
-												<Link href="/blog-details" className="link-btn">
+												<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="link-btn" target="_blank" rel="noopener noreferrer">
 													Read Details
 													<i className="fas fa-arrow-right ms-1" />
 												</Link>
@@ -158,7 +158,7 @@ export default function Blog2() {
 											<h4 className="title"><Link href="/blog-details">Why Continuous Improvement is Essential for Business</Link></h4>
 											<p className="text">Navigate challenges, seize opportunities, and embrace growth with strategic insight tailored to your unique needs.</p>
 											<div className="blog__post-bottom">
-												<Link href="/blog-details" className="link-btn">
+												<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="link-btn" target="_blank" rel="noopener noreferrer">
 													Read Details
 													<i className="fas fa-arrow-right ms-1" />
 												</Link>
@@ -190,7 +190,7 @@ export default function Blog2() {
 											<h4 className="title"><Link href="/blog-details">Building Strategic Partnerships for Growth</Link></h4>
 											<p className="text">Navigate challenges, seize opportunities, and embrace growth with strategic insight tailored to your unique needs.</p>
 											<div className="blog__post-bottom">
-												<Link href="/blog-details" className="link-btn">
+												<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="link-btn" target="_blank" rel="noopener noreferrer">
 													Read Details
 													<i className="fas fa-arrow-right ms-1" />
 												</Link>
@@ -222,7 +222,7 @@ export default function Blog2() {
 											<h4 className="title"><Link href="/blog-details">Steps to Expand Your Business Into New Markets</Link></h4>
 											<p className="text">Navigate challenges, seize opportunities, and embrace growth with strategic insight tailored to your unique needs.</p>
 											<div className="blog__post-bottom">
-												<Link href="/blog-details" className="link-btn">
+												<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="link-btn" target="_blank" rel="noopener noreferrer">
 													Read Details
 													<i className="fas fa-arrow-right ms-1" />
 												</Link>
@@ -254,7 +254,7 @@ export default function Blog2() {
 											<h4 className="title"><Link href="/blog-details">5 Key Indicators of Financial Health Every Business</Link></h4>
 											<p className="text">Navigate challenges, seize opportunities, and embrace growth with strategic insight tailored to your unique needs.</p>
 											<div className="blog__post-bottom">
-												<Link href="/blog-details" className="link-btn">
+												<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="link-btn" target="_blank" rel="noopener noreferrer">
 													Read Details
 													<i className="fas fa-arrow-right ms-1" />
 												</Link>
@@ -286,7 +286,7 @@ export default function Blog2() {
 											<h4 className="title"><Link href="/blog-details">How Effective Consulting Can Help Mitigate Them</Link></h4>
 											<p className="text">Navigate challenges, seize opportunities, and embrace growth with strategic insight tailored to your unique needs.</p>
 											<div className="blog__post-bottom">
-												<Link href="/blog-details" className="link-btn">
+												<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="link-btn" target="_blank" rel="noopener noreferrer">
 													Read Details
 													<i className="fas fa-arrow-right ms-1" />
 												</Link>
@@ -318,7 +318,7 @@ export default function Blog2() {
 											<h4 className="title"><Link href="/blog-details">Steps to Expand Your Business Into New Markets</Link></h4>
 											<p className="text">Navigate challenges, seize opportunities, and embrace growth with strategic insight tailored to your unique needs.</p>
 											<div className="blog__post-bottom">
-												<Link href="/blog-details" className="link-btn">
+												<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="link-btn" target="_blank" rel="noopener noreferrer">
 													Read Details
 													<i className="fas fa-arrow-right ms-1" />
 												</Link>

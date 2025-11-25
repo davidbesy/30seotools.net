@@ -1,7 +1,47 @@
 
+'use client'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import { useState } from "react"
+
 export default function Contact() {
+	const [formData, setFormData] = useState({
+		name: '',
+		email: '',
+		message: ''
+	})
+
+	const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+		const { name, value } = e.target
+		setFormData(prev => ({
+			...prev,
+			[name]: value
+		}))
+	}
+
+	const handleSubmit = (e: React.FormEvent) => {
+		e.preventDefault()
+		
+		// Create WhatsApp message
+		const whatsappMessage = `*Contact Form Submission*\n\n` +
+			`*Name:* ${formData.name}\n` +
+			`*Email:* ${formData.email}\n` +
+			`*Message:* ${formData.message}`
+		
+		// Encode message for WhatsApp URL
+		const encodedMessage = encodeURIComponent(whatsappMessage)
+		const whatsappUrl = `https://wa.me/15205636362?text=${encodedMessage}`
+		
+		// Open WhatsApp
+		window.open(whatsappUrl, '_blank')
+		
+		// Reset form
+		setFormData({
+			name: '',
+			email: '',
+			message: ''
+		})
+	}
 	return (
 		<>
 			<Layout headerStyle={1} footerStyle={1}>
@@ -43,41 +83,52 @@ export default function Contact() {
 												<span className="sub-title">Get In Touch</span>
 												<h2 className="title">Needs Help? Let’s Get in Touch</h2>
 											</div>
-											<form action="mail.php" method="POST" className="contact__form ajax-contact">
+											<form onSubmit={handleSubmit} className="contact__form">
 												<div className="row gy-4">
 													<div className="col-lg-6">
 														<div className="form-group">
-															<input type="text" className="form-control style-white" name="name" id="name" placeholder="Your Name" />
+															<input 
+																type="text" 
+																className="form-control style-white" 
+																name="name" 
+																id="name" 
+																placeholder="Your Name" 
+																value={formData.name}
+																onChange={handleInputChange}
+																required
+															/>
 														</div>
 													</div>
 													<div className="col-lg-6">
 														<div className="form-group">
-															<input type="text" className="form-control style-white" name="email" id="email" placeholder="Email Address" />
+															<input 
+																type="email" 
+																className="form-control style-white" 
+																name="email" 
+																id="email" 
+																placeholder="Email Address" 
+																value={formData.email}
+																onChange={handleInputChange}
+																required
+															/>
 														</div>
 													</div>
 													<div className="col-12">
 														<div className="form-group">
-															<select name="subject" id="subject" className="form-select style-white">
-																<option selected hidden>Select Service</option>
-																<option value="Business">Business</option>
-																<option value="Managment">Managment</option>
-																<option value="Analysis">Analysis</option>
-															</select>
-															<label className="form-icon-right2">
-																<svg width={16} height={8} viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M1.125 0.6875C1.21875 0.5625 1.34375 0.5 1.5 0.5C1.59375 0.5 1.71875 0.53125 1.8125 0.625L7.96875 6.28125L14.1562 0.625C14.3438 0.4375 14.6562 0.4375 14.8438 0.65625C15.0312 0.84375 15.0312 1.15625 14.8125 1.34375L8.3125 7.34375C8.125 7.53125 7.84375 7.53125 7.65625 7.34375L1.15625 1.34375C0.9375 1.1875 0.9375 0.875 1.125 0.6875Z" fill="currentColor" />
-																</svg>
-															</label>
-														</div>
-													</div>
-													<div className="col-12">
-														<div className="form-group">
-															<textarea name="message" placeholder="Type Your Message" id="contactForm" className="form-control style-white" />
+															<textarea 
+																name="message" 
+																placeholder="Type Your Message" 
+																id="contactForm" 
+																className="form-control style-white"
+																value={formData.message}
+																onChange={handleInputChange}
+																required
+															/>
 														</div>
 													</div>
 												</div>
 												<button type="submit" className="btn mt-30">
-													<span className="btn-text" data-text="Send Message" />
+													<span className="btn-text" data-text="Send WhatsApp" />
 												</button>
 											</form>
 										</div>
@@ -87,53 +138,101 @@ export default function Contact() {
 						</div>
 					</section>
 					{/*======== / Contact Section ========*/}
-					{/* contact-map */}
-					<div className="contact-map-area pt-120 pb-120">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48409.69813174607!2d-74.05163325136718!3d40.68264649999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sbd!4v1684309529719!5m2!1sen!2sbd" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+					{/* Contact Information */}
+					<section className="contact-info-area pt-120 pb-120">
 						<div className="container">
-							<div className="contact-info-wrap">
-								<div className="contact-info-thumb">
-									<img src="/assets/img/others/contact-page1-1.jpg" alt="img" />
+							<div className="row">
+								<div className="col-12">
+									<div className="section__title text-center mb-60">
+										<span className="sub-title">Contact Information</span>
+										<h2 className="title">Connect with us through any of these channels for immediate support and assistance.</h2>
+									</div>
 								</div>
-								<ul className="list-wrap">
-									<li>
-										<div className="contact-info-card">
-											<div className="contact-info-icon">
-												<i className="fas fa-phone-alt" />
+							</div>
+							<div className="row g-4">
+								<div className="col-lg-3 col-md-6">
+									<div className="contact-info-card text-center">
+										<div className="contact-info-icon mb-20">
+											<i className="fas fa-envelope-open-text" />
+										</div>
+										<h4 className="box-title mb-10">Email Support</h4>
+										<p className="mb-15"><a href="mailto:admin@groupbuyseotool.us">admin@groupbuyseotool.us</a></p>
+										<p className="text-sm">Available 24/7 - Quick Response</p>
+									</div>
+								</div>
+								<div className="col-lg-3 col-md-6">
+									<div className="contact-info-card text-center">
+										<div className="contact-info-icon mb-20">
+											<i className="fab fa-whatsapp" />
+										</div>
+										<h4 className="box-title mb-10">WhatsApp Support</h4>
+										<p className="mb-15"><a href="https://wa.me/15205636362" target="_blank" rel="noopener noreferrer">+1 (520) 563-6362</a></p>
+										<p className="text-sm">Quick response - Message us anytime</p>
+									</div>
+								</div>
+								<div className="col-lg-3 col-md-6">
+									<div className="contact-info-card text-center">
+										<div className="contact-info-icon mb-20">
+											<i className="fab fa-skype" />
+										</div>
+										<h4 className="box-title mb-10">Skype Support</h4>
+										<p className="mb-15"><a href="skype:seogroupbuy.support?chat">seogroupbuy.support</a></p>
+										<p className="text-sm">Direct communication with our team</p>
+									</div>
+								</div>
+								<div className="col-lg-3 col-md-6">
+									<div className="contact-info-card text-center">
+										<div className="contact-info-icon mb-20">
+											<i className="fas fa-ticket-alt" />
+										</div>
+										<h4 className="box-title mb-10">Support Tickets</h4>
+										<p className="mb-15">Track all your requests</p>
+										<p className="text-sm">Organized support system</p>
+									</div>
+								</div>
+							</div>
+							<div className="row mt-60">
+								<div className="col-lg-8 offset-lg-2">
+									<div className="business-hours-card">
+										<div className="section__title text-center mb-40">
+											<h3 className="title">Business Hours</h3>
+											<p className="mt-10">Our support team is available during the following hours. Emergency support available 24/7.</p>
+										</div>
+										<div className="business-hours-list">
+											<div className="hours-item">
+												<div className="hours-day">
+													<span>Monday - Friday</span>
+												</div>
+												<div className="hours-time">
+													<span>9:00 AM - 6:00 PM</span>
+												</div>
 											</div>
-											<div className="media-body">
-												<p>Call Us 24/7</p>
-												<h4>+584 (25) 21453</h4>
+											<div className="hours-item">
+												<div className="hours-day">
+													<span>Saturday</span>
+												</div>
+												<div className="hours-time">
+													<span>10:00 AM - 4:00 PM</span>
+												</div>
+											</div>
+											<div className="hours-item">
+												<div className="hours-day">
+													<span>Sunday</span>
+												</div>
+												<div className="hours-time">
+													<span>Closed</span>
+												</div>
 											</div>
 										</div>
-									</li>
-									<li>
-										<div className="contact-info-card">
-											<div className="contact-info-icon">
-												<i className="fas fa-envelope-open-text" />
-											</div>
-											<div className="media-body">
-												<p>Make a Quote</p>
-												<h4>info@help-valom.com</h4>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div className="contact-info-card">
-											<div className="contact-info-icon">
-												<i className="fas fa-map-marked-alt" />
-											</div>
-											<div className="media-body">
-												<p>Service Station</p>
-												<h4>25 Hilton Street, Aus.</h4>
-											</div>
-										</div>
-									</li>
-								</ul>
+										<p className="text-center mt-30 text-sm">
+											<em>* Emergency support is available 24/7 for critical issues and urgent matters</em>
+										</p>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					{/* contact-map-end */}
+					</section>
+					{/* Contact Information End */}
 				</>
 			</Layout>
 		</>

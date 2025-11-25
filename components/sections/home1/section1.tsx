@@ -33,21 +33,21 @@ export default function Section1() {
 										<div className="col-lg-6">
 											<div className="hero-style1">
 												<div className="sub-title" data-ani="slideinup" data-ani-delay="0.1s">
-													<span>Welcome!</span> Start Growing Your Business Today</div>
+													<span>Welcome!</span> Access Premium SEO Tools at Group Buy Prices</div>
 												<h1 className="hero-title">
-													<div className="title1" data-ani="slideinup" data-ani-delay="0.2s">Big
-														Opportunity</div>
+													<div className="title1" data-ani="slideinup" data-ani-delay="0.2s">Premium SEO
+														Tools</div>
 													<div className="title2" data-ani="slideinup" data-ani-delay="0.3s">For Your
-														Business</div>
-													<div className="title3" data-ani="slideinup" data-ani-delay="0.4s">Growth
+														Digital</div>
+													<div className="title3" data-ani="slideinup" data-ani-delay="0.4s">Success
 													</div>
 												</h1>
 												<div className="tg-button-wrap" data-ani="slideinup" data-ani-delay="0.5s">
-													<Link href="/contact" className="btn btn-three">
-														<span className="btn-text" data-text="Get Consultant" />
+													<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn btn-three" target="_blank" rel="noopener noreferrer">
+														<span className="btn-text" data-text="Get Started" />
 													</Link>
-													<Link href="/service" className="btn btn-four">
-														<span className="btn-text" data-text="Our Services" />
+													<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn btn-four" target="_blank" rel="noopener noreferrer">
+														<span className="btn-text" data-text="View Tools" />
 													</Link>
 												</div>
 											</div>
@@ -63,21 +63,21 @@ export default function Section1() {
 										<div className="col-lg-6">
 											<div className="hero-style1">
 												<div className="sub-title" data-ani="slideinup" data-ani-delay="0.1s">
-													<span>Welcome!</span> Start Growing Your Business Today</div>
+													<span>Welcome!</span> Save Up to 90% on Premium SEO Tools</div>
 												<h1 className="hero-title">
-													<div className="title1" data-ani="slideinup" data-ani-delay="0.2s">An
-														Exclusive</div>
-													<div className="title2" data-ani="slideinup" data-ani-delay="0.3s">Learning
-														Journey</div>
-													<div className="title3" data-ani="slideinup" data-ani-delay="0.4s">For
-														Business</div>
+													<div className="title1" data-ani="slideinup" data-ani-delay="0.2s">Group Buy
+														SEO</div>
+													<div className="title2" data-ani="slideinup" data-ani-delay="0.3s">Tools
+														Platform</div>
+													<div className="title3" data-ani="slideinup" data-ani-delay="0.4s">For Everyone
+													</div>
 												</h1>
 												<div className="tg-button-wrap" data-ani="slideinup" data-ani-delay="0.5s">
-													<Link href="/contact" className="btn btn-three">
-														<span className="btn-text" data-text="Get Consultant" />
+													<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn btn-three" target="_blank" rel="noopener noreferrer">
+														<span className="btn-text" data-text="Join Now" />
 													</Link>
-													<Link href="/service" className="btn btn-four">
-														<span className="btn-text" data-text="Our Services" />
+													<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn btn-four" target="_blank" rel="noopener noreferrer">
+														<span className="btn-text" data-text="Browse Tools" />
 													</Link>
 												</div>
 											</div>
@@ -93,21 +93,21 @@ export default function Section1() {
 										<div className="col-lg-6">
 											<div className="hero-style1">
 												<div className="sub-title" data-ani="slideinup" data-ani-delay="0.1s">
-													<span>Welcome!</span> Start Growing Your Business Today</div>
+													<span>Welcome!</span> Affordable SEO Tools for Every Marketer</div>
 												<h1 className="hero-title">
-													<div className="title1" data-ani="slideinup" data-ani-delay="0.2s">Need A
-														Custom</div>
-													<div className="title2" data-ani="slideinup" data-ani-delay="0.3s">Plan? Ask
-														About</div>
+													<div className="title1" data-ani="slideinup" data-ani-delay="0.2s">Access
+														Premium</div>
+													<div className="title2" data-ani="slideinup" data-ani-delay="0.3s">SEO Tools
+														Without</div>
 													<div className="title3" data-ani="slideinup" data-ani-delay="0.4s">
-														Enterprise</div>
+														Breaking Bank</div>
 												</h1>
 												<div className="tg-button-wrap" data-ani="slideinup" data-ani-delay="0.5s">
-													<Link href="/contact" className="btn btn-three">
-														<span className="btn-text" data-text="Get Consultant" />
+													<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn btn-three" target="_blank" rel="noopener noreferrer">
+														<span className="btn-text" data-text="Explore Plans" />
 													</Link>
-													<Link href="/service" className="btn btn-four">
-														<span className="btn-text" data-text="Our Services" />
+													<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn btn-four" target="_blank" rel="noopener noreferrer">
+														<span className="btn-text" data-text="All Tools" />
 													</Link>
 												</div>
 											</div>

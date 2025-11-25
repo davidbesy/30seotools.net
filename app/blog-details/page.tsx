@@ -337,7 +337,7 @@ export default function BlogDetails() {
 											<h4 className="widget-title">Have any Questions? Call us Today!</h4>
 											<p className="banner-text">Bichir sand dab chimaera glowlight danio bombay duck</p>
 											<Link className="banner-link" href="/tel:1232228888">+(123) 222-8888</Link>
-											<Link href="/contact" className="btn btn-two w-100"><span className="btn-text" data-text="Make Appointment" /> <i className="fas fa-arrow-right" /></Link>
+											<Link href="https://seotoolsgroupbuy.us/" className="btn btn-two w-100" target="_blank" rel="noopener noreferrer"><span className="btn-text" data-text="Make Appointment" /> <i className="fas fa-arrow-right" /></Link>
 										</div>
 									</aside>
 								</div>

@@ -9,25 +9,25 @@ export default function Section5() {
 					<div className="row gy-30 justify-content-center">
 						<div className="col-lg-4 col-md-6">
 							<div className="counter-card">
-								<h3 className="counter-card_title"><CounterUp>35</CounterUp></h3>
-								<p className="counter-card_subtitle">Years Of Experience</p>
-								<p className="counter-card_text">Central to the consultancy's modus operandi is a commitment...
+								<h3 className="counter-card_title"><CounterUp>50</CounterUp>+</h3>
+								<p className="counter-card_subtitle">Premium SEO Tools</p>
+								<p className="counter-card_text">Access to 50+ premium SEO tools including Ahrefs, SEMrush, Moz, and many more...
 								</p>
 							</div>
 						</div>
 						<div className="col-lg-4 col-md-6">
 							<div className="counter-card">
-								<h3 className="counter-card_title"><CounterUp>500</CounterUp>+</h3>
-								<p className="counter-card_subtitle">Official Project Completed</p>
-								<p className="counter-card_text">Central to the consultancy's modus operandi is a commitment...
+								<h3 className="counter-card_title"><CounterUp>10000</CounterUp>+</h3>
+								<p className="counter-card_subtitle">Active Users</p>
+								<p className="counter-card_text">Join thousands of digital marketers, SEO professionals, and agencies using our platform...
 								</p>
 							</div>
 						</div>
 						<div className="col-lg-4 col-md-6">
 							<div className="counter-card">
-								<h3 className="counter-card_title"><CounterUp>963</CounterUp>+</h3>
-								<p className="counter-card_subtitle">In-House Team Members</p>
-								<p className="counter-card_text">Central to the consultancy's modus operandi is a commitment...
+								<h3 className="counter-card_title"><CounterUp>90</CounterUp>%</h3>
+								<p className="counter-card_subtitle">Cost Savings</p>
+								<p className="counter-card_text">Save up to 90% on premium SEO tools compared to individual subscriptions...
 								</p>
 							</div>
 						</div>

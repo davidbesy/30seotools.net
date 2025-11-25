@@ -9,8 +9,8 @@ export default function Section6() {
 					<div className="row justify-content-center">
 						<div className="col-12">
 							<div className="section__title text-center mb-50">
-								<span className="sub-title text-anim">Team members</span>
-								<h2 className="title text-white text-anim2">Our Dedicated People</h2>
+								<span className="sub-title text-anim">Popular Tools</span>
+								<h2 className="title text-white text-anim2">Most Requested SEO Tools</h2>
 							</div>
 						</div>
 					</div>
@@ -18,7 +18,7 @@ export default function Section6() {
 						<div className="col-lg-4 col-md-6">
 							<div className="team-card">
 								<div className="box-img image-anim">
-									<Link href="/team-details" className="thumb">
+									<Link href="/single-tool-list" className="thumb">
 										<img src="/assets/img/team/team-1-1.jpg" alt="img" />
 									</Link>
 									<div className="team-social">
@@ -32,15 +32,15 @@ export default function Section6() {
 									</div>
 								</div>
 								<div className="team-card-details">
-									<h4 className="box-title"><Link href="/team-details">Andrew Smith</Link></h4>
-									<span className="box-text">Advisor</span>
+									<h4 className="box-title"><Link href="/single-tool-list">Ahrefs</Link></h4>
+									<span className="box-text">SEO Tool Suite</span>
 								</div>
 							</div>
 						</div>
 						<div className="col-lg-4 col-md-6">
 							<div className="team-card">
 								<div className="box-img image-anim">
-									<Link href="/team-details" className="thumb">
+									<Link href="/single-tool-list" className="thumb">
 										<img src="/assets/img/team/team-1-2.jpg" alt="img" />
 									</Link>
 									<div className="team-social">
@@ -54,15 +54,15 @@ export default function Section6() {
 									</div>
 								</div>
 								<div className="team-card-details">
-									<h4 className="box-title"><Link href="/team-details">Ethan Matthew</Link></h4>
-									<span className="box-text">Advisor</span>
+									<h4 className="box-title"><Link href="/single-tool-list">SEMrush</Link></h4>
+									<span className="box-text">Marketing Toolkit</span>
 								</div>
 							</div>
 						</div>
 						<div className="col-lg-4 col-md-6">
 							<div className="team-card">
 								<div className="box-img image-anim">
-									<Link href="/team-details" className="thumb">
+									<Link href="/single-tool-list" className="thumb">
 										<img src="/assets/img/team/team-1-3.jpg" alt="img" />
 									</Link>
 									<div className="team-social">
@@ -76,8 +76,8 @@ export default function Section6() {
 									</div>
 								</div>
 								<div className="team-card-details">
-									<h4 className="box-title"><Link href="/team-details">Samuel Lucas</Link></h4>
-									<span className="box-text">Advisor</span>
+									<h4 className="box-title"><Link href="/single-tool-list">Moz Pro</Link></h4>
+									<span className="box-text">SEO Software</span>
 								</div>
 							</div>
 						</div>

@@ -65,7 +65,7 @@ export default function Blog() {
 													<h3 className="title"><Link href="/blog-details">Best Practices for Sustainable Growth</Link></h3>
 													<p className="text">Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services</p>
 													<div className="blog__post-bottom">
-														<Link href="/blog-details" className="btn">
+														<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn" target="_blank" rel="noopener noreferrer">
 															<div className="btn-text" data-text="Read Details" />
 															<i className="fas fa-arrow-right" />
 														</Link>
@@ -97,7 +97,7 @@ export default function Blog() {
 													<h3 className="title"><Link href="/blog-details">How to Build a High-Performance Team</Link></h3>
 													<p className="text">Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services</p>
 													<div className="blog__post-bottom">
-														<Link href="/blog-details" className="btn">
+														<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn" target="_blank" rel="noopener noreferrer">
 															<div className="btn-text" data-text="Read Details" />
 															<i className="fas fa-arrow-right" />
 														</Link>
@@ -129,7 +129,7 @@ export default function Blog() {
 													<h3 className="title"><Link href="/blog-details">The Journey with Business Consultancy</Link></h3>
 													<p className="text">Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services</p>
 													<div className="blog__post-bottom">
-														<Link href="/blog-details" className="btn">
+														<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn" target="_blank" rel="noopener noreferrer">
 															<div className="btn-text" data-text="Read Details" />
 															<i className="fas fa-arrow-right" />
 														</Link>
@@ -300,7 +300,7 @@ export default function Blog() {
 											<h4 className="widget-title">Have any Questions? Call us Today!</h4>
 											<p className="banner-text">Bichir sand dab chimaera glowlight danio bombay duck</p>
 											<Link className="banner-link" href="/tel:1232228888">+(123) 222-8888</Link>
-											<Link href="/contact" className="btn btn-two w-100"><span className="btn-text" data-text="Make Appointment" /> <i className="fas fa-arrow-right" /></Link>
+											<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn btn-two w-100" target="_blank" rel="noopener noreferrer"><span className="btn-text" data-text="Make Appointment" /> <i className="fas fa-arrow-right" /></Link>
 										</div>
 									</aside>
 								</div>

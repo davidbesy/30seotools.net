@@ -69,16 +69,7 @@ export default function Footer2() {
 								<div className="row justify-content-lg-between justify-content-center gy-4">
 									<div className="col-auto">
 										<div className="footer__logo mb-0">
-											<Link href="/"><img src="/assets/img/logo/logo.svg" alt="logo" /></Link>
-										</div>
-									</div>
-									<div className="col-auto">
-										<div className="social-links">
-											<ul className="list-wrap">
-												<li><Link href="/https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-square" />Facebook</Link></li>
-												<li><Link href="/https://twitter.com" target="_blank"><i className="fab fa-twitter" />Twitter</Link></li>
-												<li><Link href="/https://www.linkedin.com/" target="_blank"><i className="fab fa-linkedin" />Linkedin</Link></li>
-											</ul>
+											<Link href="/"><span style={{fontSize: '20px', fontWeight: '700', color: 'var(--tg-theme-primary)'}}>SEO GROUP BUY TOOLS</span></Link>
 										</div>
 									</div>
 								</div>

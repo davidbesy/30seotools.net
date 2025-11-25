@@ -16,9 +16,9 @@ export default function Section7() {
 						</div>
 						<div className="col-xl-6">
 							<div className="section__title mb-50">
-								<span className="sub-title text-anim">OUR Business GOAL</span>
-								<h2 className="title text-anim2">Make Every Stage in The
-									Customer Journey</h2>
+								<span className="sub-title text-anim">OUR MISSION</span>
+								<h2 className="title text-anim2">Make Premium SEO Tools
+									Accessible to Everyone</h2>
 							</div>
 							<div className="goal-grid-card">
 								<div className="box-icon">
@@ -35,9 +35,8 @@ export default function Section7() {
 									</svg>
 								</div>
 								<div className="card-details">
-									<h4 className="box-title">Strategy Development</h4>
-									<p className="box-text">Efficiently unleash cross-media information without cross-media
-										value work.</p>
+									<h4 className="box-title">Instant Access</h4>
+									<p className="box-text">Get immediate access to premium SEO tools after subscription. No waiting, no delays.</p>
 								</div>
 							</div>
 							<div className="goal-grid-card">
@@ -51,9 +50,8 @@ export default function Section7() {
 									</svg>
 								</div>
 								<div className="card-details">
-									<h4 className="box-title">Data-Driven Insights</h4>
-									<p className="box-text">Efficiently unleash cross-media information without cross-media
-										value work.</p>
+									<h4 className="box-title">24/7 Support</h4>
+									<p className="box-text">Round-the-clock customer support to help you with any issues or questions about our tools.</p>
 								</div>
 							</div>
 						</div>

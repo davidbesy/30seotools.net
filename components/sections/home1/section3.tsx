@@ -24,15 +24,13 @@ export default function Section3() {
 							</div>
 							<div className="col-xl-6">
 								<div className="section__title">
-									<span className="sub-title text-anim">About Amazing Company</span>
-									<h2 className="title text-anim2">Business Strategy For
-										Every Stage in Our Every
-										Client’s Journey
+									<span className="sub-title text-anim">About Our Platform</span>
+									<h2 className="title text-anim2">Premium SEO Tools Access
+										For Every Digital Marketer
+										At Affordable Prices
 									</h2>
 								</div>
-								<p className="mt-30 mb-30">Central to the consultancy's modus operandi is a commitment to
-									innovation, manifested in its agile approach to problem-solving and its relentless
-									pursuit of cutting-edge solutions.</p>
+								<p className="mt-30 mb-30">We provide access to premium SEO tools through group buy subscriptions, making expensive tools affordable for everyone. Our platform offers the latest SEO software including Ahrefs, SEMrush, Moz, and many more at fraction of the original cost.</p>
 								<div className="about-grid-card">
 									<div className="box-icon">
 										<svg width={50} height={51} viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,9 +38,8 @@ export default function Section3() {
 										</svg>
 									</div>
 									<div className="card-details">
-										<h4 className="box-title">Global Insights</h4>
-										<p className="box-text">Central to the consultancy's modus operandi is a commitment to
-											innovation, manifested in its agile approach...</p>
+										<h4 className="box-title">Premium Tool Access</h4>
+										<p className="box-text">Get instant access to premium SEO tools including Ahrefs, SEMrush, Moz Pro, and more at group buy prices...</p>
 									</div>
 								</div>
 								<div className="about-grid-card">
@@ -68,14 +65,13 @@ export default function Section3() {
 										</svg>
 									</div>
 									<div className="card-details">
-										<h4 className="box-title">Business Investment</h4>
-										<p className="box-text">Central to the consultancy's modus operandi is a commitment to
-											innovation, manifested in its agile approach...</p>
+										<h4 className="box-title">Cost-Effective Solutions</h4>
+										<p className="box-text">Save up to 90% on premium SEO tools with our group buy plans. No long-term contracts, cancel anytime...</p>
 									</div>
 								</div>
 								<div className="tg-button-wrap mt-50">
-									<Link href="/appointment" className="btn">
-										<span className="btn-text" data-text="Book Appointment Now" />
+									<Link href="https://seotoolsgroupbuy.us/single-tools-list/" className="btn" target="_blank" rel="noopener noreferrer">
+										<span className="btn-text" data-text="View All SEO Tools" />
 									</Link>
 								</div>
 							</div>

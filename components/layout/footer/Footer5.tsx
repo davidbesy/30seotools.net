@@ -17,15 +17,6 @@ export default function Footer5() {
 												duis cubilia sagittis vivamus ultrices
 												magnis proin inceptos
 											</p>
-											<div className="social-links style3">
-												<ul className="list-wrap">
-													<li><Link href="/https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f" /></Link></li>
-													<li><Link href="/https://twitter.com" target="_blank"><i className="fab fa-twitter" /></Link></li>
-													<li><Link href="/https://www.linkedin.com/" target="_blank"><i className="fab fa-linkedin-in" /></Link></li>
-													<li><Link href="/https://www.instagram.com/" target="_blank"><i className="fab fa-instagram" /></Link></li>
-													<li><Link href="/https://www.skype.com/" target="_blank"><i className="fab fa-skype" /></Link></li>
-												</ul>
-											</div>
 										</div>
 									</div>
 									<div className="col-xl-auto col-md-6">
@@ -38,22 +29,6 @@ export default function Footer5() {
 															<path d="M9 1L15 7M15 7L9 13M15 7H0" stroke="currentColor" strokeWidth="1.5" />
 														</svg>
 														About Us
-													</Link>
-												</li>
-												<li>
-													<Link href="/project">
-														<svg width={17} height={14} viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M9 1L15 7M15 7L9 13M15 7H0" stroke="currentColor" strokeWidth="1.5" />
-														</svg>
-														Portfolio
-													</Link>
-												</li>
-												<li>
-													<Link href="/appointment">
-														<svg width={17} height={14} viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M9 1L15 7M15 7L9 13M15 7H0" stroke="currentColor" strokeWidth="1.5" />
-														</svg>
-														Appointment
 													</Link>
 												</li>
 												<li>

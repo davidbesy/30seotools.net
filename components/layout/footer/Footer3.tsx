@@ -42,8 +42,9 @@ export default function Footer3() {
 									</div>
 									<div className="media-body">
 										<p className="footer-contact_text">Contact Us</p>
-										<Link className="footer-contact_link" href="/mailto:info@valom.com">info@valom.com</Link>
-										<Link className="footer-contact_link" href="/tel:2597462153">(+259) 746 2153</Link>
+										<Link className="footer-contact_link" href="/mailto:admin@groupbuyseotool.us">admin@groupbuyseotool.us</Link>
+										<Link className="footer-contact_link" href="/tel:+15205636362">+1 (520) 563‑6362</Link>
+										<p className="footer-contact_link">seogroupbuy.support</p>
 									</div>
 								</div>
 							</div>
@@ -58,15 +59,6 @@ export default function Footer3() {
 										<p className="footer__content mb-30">
 											Intrinsicly evisculate emerging cutting edge scenarios redefine future-proof e-markets demand line
 										</p>
-										<div className="social-links style3">
-											<ul className="list-wrap">
-												<li><Link href="/https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f" /></Link></li>
-												<li><Link href="/https://twitter.com" target="_blank"><i className="fab fa-twitter" /></Link></li>
-												<li><Link href="/https://www.instagram.com/" target="_blank"><i className="fab fa-instagram" /></Link></li>
-												<li><Link href="/https://www.behance.com/" target="_blank"><i className="fab fa-behance" /></Link></li>
-												<li><Link href="/https://www.youtube.com/" target="_blank"><i className="fab fa-youtube" /></Link></li>
-											</ul>
-										</div>
 									</div>
 								</div>
 								<div className="col-xl-auto col-md-6">
@@ -81,16 +73,6 @@ export default function Footer3() {
 											<li>
 												<Link href="/about">
 													Our Mission
-												</Link>
-											</li>
-											<li>
-												<Link href="/team">
-													Meet The Teams
-												</Link>
-											</li>
-											<li>
-												<Link href="/project">
-													Our Projects
 												</Link>
 											</li>
 											<li>
