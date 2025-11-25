@@ -66,7 +66,10 @@ export default function CounterUp({ children }: any) {
 					decimals={0}
 					enableScrollSpy
 					scrollSpyOnce
-					onUpdate={(value) => setCurrentValue(value)}
+					onUpdate={(args: any) => {
+						const value = typeof args === 'number' ? args : (args?.value ?? args)
+						setCurrentValue(Number(value) || 0)
+					}}
 				>
 					{({ countUpRef }) => (
 						<span ref={countUpRef}>
