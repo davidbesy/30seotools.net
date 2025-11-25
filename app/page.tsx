@@ -10,6 +10,20 @@ import Section6 from '@/components/sections/home1/section6'
 import Section7 from '@/components/sections/home1/section7'
 import Section10 from '@/components/sections/home1/section10'
 import Section11 from '@/components/sections/home1/section11'
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+	title: "Home - Premium SEO Tools at Group Buy Prices",
+	description: "Access 50+ premium SEO tools including Ahrefs, SEMrush, Moz Pro at affordable group buy prices. Save up to 90% on individual subscriptions.",
+	alternates: {
+		canonical: 'https://30seotools.net',
+	},
+	openGraph: {
+		title: 'Premium SEO Tools at Group Buy Prices - 30seotools.net',
+		description: 'Access 50+ premium SEO tools including Ahrefs, SEMrush, Moz Pro at affordable group buy prices.',
+		url: 'https://30seotools.net',
+	},
+}
 
 export default function Home() {
 	return (

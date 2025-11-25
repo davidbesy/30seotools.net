@@ -1,5 +1,19 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+	title: "Pricing Plans - SEO Tools Group Buy",
+	description: "Choose from our affordable pricing plans to access premium SEO tools. Lite Plan $10/month, Small Plan $15/month, Ahref$ Combo $25/month, and Mega Plan $50/month.",
+	alternates: {
+		canonical: 'https://30seotools.net/tool-list',
+	},
+	openGraph: {
+		title: 'Pricing Plans - SEO Tools Group Buy',
+		description: 'Choose from our affordable pricing plans to access premium SEO tools.',
+		url: 'https://30seotools.net/tool-list',
+	},
+}
 
 export default function ToolList() {
 	return (

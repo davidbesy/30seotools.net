@@ -1,7 +1,21 @@
-
 import CounterUp from '@/components/elements/CounterUp'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+	title: "About Us - Group Buy SEO Tools",
+	description: "Learn about Group Buy SEO Tools - Your gateway to affordable premium SEO tools. Access 100+ premium SEO, marketing, and design tools at a fraction of their original cost.",
+	alternates: {
+		canonical: 'https://30seotools.net/about',
+	},
+	openGraph: {
+		title: 'About Us - Group Buy SEO Tools',
+		description: 'Learn about Group Buy SEO Tools - Your gateway to affordable premium SEO tools.',
+		url: 'https://30seotools.net/about',
+	},
+}
+
 export default function About() {
 
 	return (
